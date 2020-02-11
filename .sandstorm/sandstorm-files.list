@@ -26,6 +26,7 @@ opt/app/DjangoSandstormTest/__pycache__/apps.cpython-37.pyc
 opt/app/DjangoSandstormTest/__pycache__/models.cpython-37.pyc
 opt/app/DjangoSandstormTest/admin.py
 opt/app/DjangoSandstormTest/apps.py
+opt/app/DjangoSandstormTest/middleware.py
 opt/app/DjangoSandstormTest/migrations
 opt/app/DjangoSandstormTest/migrations/__init__.py
 opt/app/DjangoSandstormTest/migrations/__pycache__
@@ -682,6 +683,7 @@ opt/app/venv/lib/python3.7/site-packages/django/utils/asyncio.py
 opt/app/venv/lib/python3.7/site-packages/django/utils/deprecation.py
 opt/app/venv/lib/python3.7/site-packages/django/utils/functional.py
 opt/app/venv/lib/python3.7/site-packages/django/utils/html.py
+opt/app/venv/lib/python3.7/site-packages/django/utils/module_loading.py
 opt/app/venv/lib/python3.7/site-packages/django/utils/translation
 opt/app/venv/lib/python3.7/site-packages/django/utils/translation/__pycache__/__init__.cpython-37.pyc
 opt/app/venv/lib/python3.7/site-packages/django/utils/translation/__pycache__/reloader.cpython-37.pyc
@@ -1104,6 +1106,7 @@ usr/lib/python3.7/http/__pycache__/client.cpython-37.pyc
 usr/lib/python3.7/http/__pycache__/cookiejar.cpython-37.pyc
 usr/lib/python3.7/http/__pycache__/cookies.cpython-37.pyc
 usr/lib/python3.7/importlib
+usr/lib/python3.7/importlib/__init__.py
 usr/lib/python3.7/importlib/__pycache__/__init__.cpython-37.pyc
 usr/lib/python3.7/importlib/__pycache__/abc.cpython-37.pyc
 usr/lib/python3.7/importlib/__pycache__/machinery.cpython-37.pyc
