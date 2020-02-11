@@ -172,6 +172,13 @@ opt/app/venv/lib/python3.7/site-packages/asgiref/__pycache__/__init__.cpython-37
 opt/app/venv/lib/python3.7/site-packages/asgiref/__pycache__/current_thread_executor.cpython-37.pyc
 opt/app/venv/lib/python3.7/site-packages/asgiref/__pycache__/local.cpython-37.pyc
 opt/app/venv/lib/python3.7/site-packages/asgiref/__pycache__/sync.cpython-37.pyc
+opt/app/venv/lib/python3.7/site-packages/corsheaders
+opt/app/venv/lib/python3.7/site-packages/corsheaders/__pycache__/__init__.cpython-37.pyc
+opt/app/venv/lib/python3.7/site-packages/corsheaders/__pycache__/checks.cpython-37.pyc
+opt/app/venv/lib/python3.7/site-packages/corsheaders/__pycache__/conf.cpython-37.pyc
+opt/app/venv/lib/python3.7/site-packages/corsheaders/__pycache__/defaults.cpython-37.pyc
+opt/app/venv/lib/python3.7/site-packages/corsheaders/__pycache__/middleware.cpython-37.pyc
+opt/app/venv/lib/python3.7/site-packages/corsheaders/__pycache__/signals.cpython-37.pyc
 opt/app/venv/lib/python3.7/site-packages/django
 opt/app/venv/lib/python3.7/site-packages/django/__pycache__/__init__.cpython-37.pyc
 opt/app/venv/lib/python3.7/site-packages/django/__pycache__/shortcuts.cpython-37.pyc

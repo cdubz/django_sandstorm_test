@@ -1,3 +1,6 @@
+/.venv
 /venv
 /static
 /.idea
+__pycache__
+*.py

@@ -38,13 +38,16 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'DjangoSandstormTest.apps.DjangosandstormtestConfig',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    'corsheaders.middleware.CorsPostCsrfMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -122,3 +125,15 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+# CORS configuration
+# https://pypi.org/project/django-cors-headers/
+# Django's built in CSRF_TRUSTED_ORIGINS cannot be used by Sandstorm does not
+# set a `Referer` header.
+
+CORS_ORIGIN_WHITELIST = [
+    'http://local.sandstorm.io:6080',
+    # TODO: Add full grain URL here.
+]
+CORS_REPLACE_HTTPS_REFERER = True
